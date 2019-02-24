@@ -27,12 +27,11 @@
 
 .top-bar input[type=text] {
   float: right;
-  width: 20%;
-  padding: 6px;
+  //width: 20%;
   border: none;
   padding: 16px 16px;
   margin-top: 16px;
-  margin-right: 16px;
+  margin-right: 40px;
   font-size: 20px;
 }
 

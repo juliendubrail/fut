@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Topbar = () => (
+const Topbar = ({onInputChange}, props) => (
    <div className ="top-bar">
    <h2>Fifa Ultimate Team</h2>
-   <input type='text' value='search' />
+   <input type='text' placeholder='search' onChange={onInputChange} />
    </div>
 );
 
