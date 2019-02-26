@@ -7,6 +7,7 @@ import { padding } from './styles';
 
 class App extends Component {
 
+
     state = {
       searchInput : '',
     }
@@ -22,11 +23,14 @@ class App extends Component {
     this.setState({input: event.target.value}, () => console.log(this.state.input));
   }
 
+
   render() {
     return (
       <div className="App">
       <header className="fut-header">
+
         <Topbar value={this.state.input} onInputChange={this.onInputChange} style={padding.LARGE}/>
+
         </header>
       </div>
     );
