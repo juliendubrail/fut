@@ -1,3 +1,6 @@
-const API = 'https://api.sheety.co/32cddc1c-d9cb-4439-b995-6c204bc0e5c0';
+const API = {
+    action: 'https://movied.herokuapp.com/categories/28',
+    boxOffice: 'https://movied.herokuapp.com/discover'
+}
 
-export default API;
+export  default API;

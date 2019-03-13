@@ -1,10 +1,14 @@
 import React from 'react';
 
-const Topbar = ({onInputChange}, props) => (
+const Topbar = ({onInputChange}) => (
    <div className ="top-bar">
-   <h2>Fifa Ultimate Team</h2>
-   <input type='text' placeholder='search' onChange={onInputChange} />
+   <h1>Movies</h1>
+   <input type='search' placeholder='search movie' onChange={onInputChange} />
    </div>
 );
 
 export default Topbar;
+
+
+
+
